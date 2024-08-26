@@ -4,13 +4,13 @@ import time
 
 
 st.set_page_config(
-    page_title="Kanha Shanti Vanam",
+    page_title="Sip Buddy",
     page_icon="🤖",  # Changed page icon to a robot emoji
     layout="centered",
     initial_sidebar_state="auto",
     menu_items=None)
 
-st.title("Welcome To Kanha Shanti Vanam")
+st.title("Welcome To Sip Buddy")
 
 
 if "messages" not in st.session_state.keys():
@@ -18,7 +18,7 @@ if "messages" not in st.session_state.keys():
     st.session_state.messages = [
         {
             "role": "assistant",
-            "content": "Need Info? Ask Me Questions about Kanha Shanti Vanam "
+            "content": "Need Info? Ask Me Questions about events "
         }
     ]
 
